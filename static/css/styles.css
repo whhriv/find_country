@@ -1,0 +1,16 @@
+.image-size {
+    max-width: 15%;
+    height: auto;
+}
+
+.countries{
+    max-width: 100%;
+    margin: 20x auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.country-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
