@@ -7,10 +7,21 @@
     max-width: 100%;
     margin: 20x auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(4, 1fr); */
 }
 .country-div {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     
+}
+col {
+    border: 2px grey;
+}
+img {
+    object-fit:contain;
+}
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+    background-color: black;
 }
